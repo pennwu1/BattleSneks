@@ -3,9 +3,8 @@ const snekReducer = (state = 'initial snek state', action) => {
     case 'DO_SOMETHING':
       return action.payload;
       break;
-    default:
-      return state;
   }
+  return state;
 };
 
 export default snekReducer;
