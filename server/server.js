@@ -10,6 +10,8 @@ app.use(express.static(__dirname +'./../')); //serves the index.html
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.listen(port, () => {
-  console.log('App listening on port ' + port)
-});
+// app.listen(port, () => {
+//   console.log('App listening on port ' + port)
+// });
+
+module.exports.app = app;
