@@ -4,7 +4,7 @@ const snekReducer = (state = 'initial snek state', action) => {
       return action.payload;
       break;
     default:
-      return state;
+    return state;
   }
 };
 
