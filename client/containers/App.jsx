@@ -1,5 +1,5 @@
 // Any stateful components/logic belong in containers
-// Dump/statesless components belong in components
+// Dump/stateless components belong in components
 // http://redux.js.org/docs/basics/UsageWithReact.html
 
 import React, { Component } from 'react';
